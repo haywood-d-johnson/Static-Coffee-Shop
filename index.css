@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+:root {
+    --buttermilk: #ffefb7;
+    --costa-del-sol: #63572d;
+    --casal: #2d5463;
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: var(--buttermilk);
+    margin: 0 auto;
+    width: 800px;
+}
+
+.header__container {
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding: 5rem;
+}
+
+.header__buttons-inner {
+    display: inline-flex;
+    width: 100%;
+    flex: 1 0 0;
+    justify-content: center;
+    padding: 1rem 0;
+    align-items: center;
+}
+
+.header__buttons-inner-button-container {
+    padding-inline-start: 0px;
+    display: inline-flex;
+    margin: 0px;
+    width: 75%;
+}
+
+.header__buttons-inner-button-container>li {
+    padding: 1rem 1rem;
+    text-decoration: none;
+    width: auto;
+}
+
+.header__buttons-inner-button-container>li:hover {
+    box-shadow: 0 0 2px #000000;
+}
+
+.header__buttons-inner-button-container>li>a {
+    text-decoration: none;
+    color: var(--costa-del-sol);
+}
+
+.header__buttons-inner-button-container>li>a:hover {
+    text-decoration: none;
+}
+
+.header__buttons-inner>button {
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: 5px;
+    background: none;
+    background-color: var(--casal);
+    color: white;
+}
+
+.header__logo {
+    display: inline-flex;
+    border: 1px solid black;
+    width: 100%;
+    margin-top: 2rem;
+    justify-content: center;
+}
