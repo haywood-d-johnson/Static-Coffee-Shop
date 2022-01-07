@@ -1,5 +1,5 @@
 <h1 align="center"> :coffee: Static-Coffee-Shop :coffee: </h1>
-<h3 align="center">Static coffer shop page built with HTML/CSS</h3>
+<h3 align="center">Static coffee shop page built with HTML/CSS</h3>
 
 <h4 align="center">Deployed at: 👉 https://static-coffee-shop.vercel.app </h4>
 
