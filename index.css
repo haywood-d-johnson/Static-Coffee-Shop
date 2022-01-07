@@ -200,3 +200,54 @@ body {
     border: 2px solid var(--casal);
     background-color: var(--buttermilk);
 }
+
+.footer__container {
+    display: flex;
+    width: 100%;
+    padding: 2.5rem;
+    /* border: 1px solid black; */
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 0 2 auto;
+}
+
+.footer__col-about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer__col-about>div {
+    margin-bottom: 0.25rem;
+}
+
+.footer__col-about>div>a {
+    text-decoration: none;
+}
+
+.footer__col-about>div>a:hover {
+    text-shadow: 0 0 1rem var(--casal);
+}
+
+.footer__col-github {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer__col-github>h4 {
+    margin-bottom: 0;
+}
+
+.footer__col-github>h3 {
+    margin-top: 0;
+}
+
+.footer__col-github>h3>a {
+    text-decoration: none;
+}
+
+.footer__col-github>h3>a:hover {
+    text-shadow: 0 0 1rem var(--casal);
+}
